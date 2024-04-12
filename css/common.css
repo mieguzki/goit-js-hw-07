@@ -12,21 +12,21 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-h2 {
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
-ul {
-  padding: 0;
-  list-style-type: none;
-}
-.name-output {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 104px;
-  line-height: 1.33333;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-}
+
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -45,6 +45,7 @@ ul {
   width: 360px;
   height: 300px;
 }
+
 #boxes {
   display: flex;
   flex-wrap: wrap;
